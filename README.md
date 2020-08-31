@@ -8,9 +8,9 @@ composer require laofu110/poster
 
 ```
 $config =[
-    'bg' => 'https://img.juyouhuizhi.cn/uploads/20200829/e4aaa3cb6a07eb8fa649e2e584f23e88.png',//背景图片路径
+    'bg' => '',//背景图片路径
     'format'=>'jpg',//支持jpg、png、gif
-    'quality'=>75,
+    'quality'=>75,//压缩质量（0-100），输出格式为jpg时比较明显
     'text' => [
         [
             'text' => '',
@@ -29,7 +29,7 @@ $config =[
             'width' => 110,
             'height' => 110,
             'radius' => 50,
-            'opacity' => 100,//压缩质量（0-100），输出格式为jpg时比较明显
+            'opacity' => 100,
         ],
     ]
 ];
